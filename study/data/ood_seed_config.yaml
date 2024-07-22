@@ -1,0 +1,12 @@
+---
+sources:
+  - isotope: Cs134
+    configurations:
+      - Cs134,100uC
+  - isotope: Cs137
+    configurations:
+      - Cs137,100uC
+  - isotope: Mo99
+    configurations:
+      - Mo99,100uC
+...

@@ -1,0 +1,133 @@
+gamma_detector:
+  name: Falcon PNNL
+  parameters:
+    distance_cm: 60
+    height_cm: 10
+    dead_time_per_pulse: 10
+    latitude_deg: 46.4
+    longitude_deg: 240.7
+    elevation_m: 0
+sources:
+- isotope: Th232
+  configurations:
+  - ThoriumInSoil
+- isotope: Ra226
+  configurations:
+  - UraniumInSoil
+- isotope: Cosmic
+  configurations:
+  - Cosmic
+- isotope: K40
+  configurations:
+  - PotassiumInSoil
+- isotope: K40
+  configurations:
+  - K40,1.16E05pC
+- isotope: Ge77
+  configurations:
+  - Ge77,1.65E04pC
+- isotope: Kr87
+  configurations:
+  - Kr87,3.31E04pC
+- isotope: Kr89
+  configurations:
+  - Kr89,1.34E06pC
+- isotope: Rb89
+  configurations:
+  - Rb89,3.31E05pC
+- isotope: Rb90m
+  configurations:
+  - Rb90m,4.06E05pC
+- isotope: Sr92
+  configurations:
+  - Sr92,2.27E04pC
+- isotope: Sr93
+  configurations:
+  - Sr93,7.00E05pC
+- isotope: Y94
+  configurations:
+  - Y94,2.57E05pC
+- isotope: Y95
+  configurations:
+  - Y95,6.05E05pC
+- isotope: Zr97
+  configurations:
+  - Zr97,2.45E04pC
+- isotope: Mo101
+  configurations:
+  - Mo101,1.25E06pC
+- isotope: Tc104
+  configurations:
+  - Tc104,1.09E05pC
+- isotope: Tc105
+  configurations:
+  - Tc105,1.10E05pC
+- isotope: Ru106
+  configurations:
+  - Ru106,7.61E04pC
+- isotope: Rh107
+  configurations:
+  - Rh107,2.57E04pC
+- isotope: Sb130m
+  configurations:
+  - Sb130m,2.85E05pC
+- isotope: Sb131
+  configurations:
+  - Sb131,8.73E04pC
+- isotope: Te131
+  configurations:
+  - Te131,7.10E04pC
+- isotope: Sb132
+  configurations:
+  - Sb132,9.64E05pC
+- isotope: Te133
+  configurations:
+  - Te133,2.92E05pC
+- isotope: Te133m
+  configurations:
+  - Te133m,5.40E04pC
+- isotope: Cs134m
+  configurations:
+  - Cs134m,7.30E04pC
+- isotope: I134
+  configurations:
+  - I134,3.78E04pC
+- isotope: Te134
+  configurations:
+  - Te134,1.29E05pC
+- isotope: I135
+  configurations:
+  - I135,2.14E04pC
+- isotope: Xe137
+  configurations:
+  - Xe137,2.35E06pC
+- isotope: Cs138
+  configurations:
+  - Cs138,1.16E05pC
+- isotope: Xe138
+  configurations:
+  - Xe138,4.44E05pC
+- isotope: Ba139
+  configurations:
+  - Ba139,5.41E04pC
+- isotope: Cs139
+  configurations:
+  - Cs139,7.05E05pC
+- isotope: Ba141
+  configurations:
+  - Ba141,3.09E05pC
+- isotope: Ba142
+  configurations:
+  - Ba142,5.04E05pC
+- isotope: La142
+  configurations:
+  - La142,9.59E04pC
+- isotope: Ce144
+  configurations:
+  - Ce144,5.33E04pC
+- isotope: Ce145
+  configurations:
+  - Ce145,1.15E06pC
+- isotope: Ir192
+  configurations:
+  - Ir192,6.42E04pC
